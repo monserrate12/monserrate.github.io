@@ -1,0 +1,57 @@
+body{
+  <style type="text/css"> 
+    
+    *{ 
+    padding:0px;
+    padding:0px
+    }
+    #header{
+    margin:auto;
+    width:500px;
+    font-family:arial, helvetiva; 
+    
+    }
+    ul,ol{ 
+    list-style:none;
+    
+    }
+    .nav li a{ 
+    background-color:#000;
+    color:aqua;
+    text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+    
+    .nav>li  {
+        float: left;
+        
+    }
+    
+    .nav li a :hover {
+        background: #434343;
+    }
+    
+    .nav li ul {
+        display:none;
+        position: absolute;
+        min-width: 140px;      
+        
+    }
+    
+    .nav li:hover > ul {
+        display: block;
+    }
+    .nav li ul li {
+        position: relative;
+        
+    }
+    .nav li ul li ul{
+        right: -140px;
+        top: 0px;
+        
+    }    
+    
+    </style>
+} 
+
